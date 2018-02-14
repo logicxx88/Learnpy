@@ -181,4 +181,23 @@ print end7 + end8 + end9 + end10 + end11 + end12
 
 >1.逆向阅读，给每一行的加上注释。 2.倒着朗读出来，找出自己的错误。 3.从现在开始，把你犯过的错误记录一张纸上。 4.在开始下一节习题时，阅读一遍你记录下来的错误，并且尽量避免在下个练习中再犯同样的错误。 5.记住，每个人都会犯错误。程序员和魔术师一样，他们希望大家认为他们从不犯错，不过这只是表象而已，他们每时每刻都在犯错。
 
+## 练习8：继续打印吧
 
+```
+formatter = "%r %r %r %r"
+
+print formatter % (1, 2, 3, 4)
+print formatter % ("one", "two", "three", "four")
+print formatter % (True, False, False, True)
+print formatter % (formatter, formatter, formatter, formatter)
+print formatter % (
+    "I had this thing.",
+    "That you could type up right.",
+    "But it didn't sing.",
+    "So I said goodnight."
+)
+```
+
+#### 附件思考
+
+>1.自己检查结果，记下你犯过的错误，并且在下个练习中尽量不犯同样的错误。 2.注意最后一行程序中既有单引号又有双引号，你觉得它是如何工作的
