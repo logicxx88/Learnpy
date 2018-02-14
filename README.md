@@ -225,3 +225,29 @@ Even 4 lines if we want, or 5, or 6.
 
 >1.自己检查结果，记录你犯过的错误，并且在下个练习中尽量不犯同样的错误。
 
+## 练习10：那是什么-测试转义字符和其他特殊字符
+
+```
+tabby_cat = "\tI'm tabbed in."
+persian_cat = "I'm split\non a line."
+backslash_cat = "I'm \\ a \\ cat."
+
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+
+print tabby_cat
+print persian_cat
+print backslash_cat
+print fat_cat
+```
+
+#### 附加思考
+
+>1.通过把它们写在卡片上记住所有的转义序列。 2.使用'''(三个单引号)取代三个双引号，看看效果是不是一样的？ 3.结合转义序列和格式字符串创建一个更复杂的格式。 4.记得 %r 格式化字符串吗？使用 %r 搭配单引号和双引号转义字符打印一些字符串出来。 将 %r 和 %s 比较一下。 注意到了吗？%r 打印出来的是你写在脚本里的内容，而 %s 打印的是你应该看到的内容。
+
+
+
