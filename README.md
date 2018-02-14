@@ -151,3 +151,34 @@ print w + e
 
 >1.通读程序，并给每一行加上注释，解释下这行的作用。 2.找到所有的”字符串包含字符串”的位置，总共有四个位置。 3.你确定只有四个位置吗？你怎么知道的？也许我在骗你呢。 4.解释一下为什么用+连起来 w 和 e 就可以生成一个更长的字符串。
 
+## 练习7：更多的打印
+
+```
+print "Mary had a little lamb."
+print "Its fleece was white as %s." % 'snow'
+print "And everywhere that Mary went."
+print "." * 10  # what'd that do?
+
+end1 = "C"
+end2 = "h"
+end3 = "e"
+end4 = "e"
+end5 = "s"
+end6 = "e"
+end7 = "B"
+end8 = "u"
+end9 = "r"
+end10 = "g"
+end11 = "e"
+end12 = "r"
+
+# watch that comma at the end.  try removing it to see what happens
+print end1 + end2 + end3 + end4 + end5 + end6,
+print end7 + end8 + end9 + end10 + end11 + end12
+```
+
+#### 附加思考
+
+>1.逆向阅读，给每一行的加上注释。 2.倒着朗读出来，找出自己的错误。 3.从现在开始，把你犯过的错误记录一张纸上。 4.在开始下一节习题时，阅读一遍你记录下来的错误，并且尽量避免在下个练习中再犯同样的错误。 5.记住，每个人都会犯错误。程序员和魔术师一样，他们希望大家认为他们从不犯错，不过这只是表象而已，他们每时每刻都在犯错。
+
+
