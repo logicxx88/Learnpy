@@ -201,3 +201,27 @@ print formatter % (
 #### 附件思考
 
 >1.自己检查结果，记下你犯过的错误，并且在下个练习中尽量不犯同样的错误。 2.注意最后一行程序中既有单引号又有双引号，你觉得它是如何工作的
+
+## 练习9，还在继续打印
+
+```
+# Here's some new strange stuff, remember type it exactly.
+
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+
+print "Here are the days: ", days
+print "Here are the months: ", months
+
+print """
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+"""
+```
+
+#### 附加思考
+
+>1.自己检查结果，记录你犯过的错误，并且在下个练习中尽量不犯同样的错误。
+
