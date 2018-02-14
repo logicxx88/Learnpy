@@ -95,3 +95,59 @@ NameError: name 'car_pool_capacity' is not defined
 更多的附加题
 >1.我在程序里用了 4.0 作为space_in_a_car的值，这样做有必要吗？如果只用 4 会有什么问题? 2.记住 4.0 是一个浮点数，自己研究一下这是什么意思。浮点数是带有小数点的数字。 3.在每一个变量赋值的上一行加上一行注释。 4.记住=的名字是等于(equal)，它的作用是为东西取名。 5.记住_是下划线字符(underscore)。 6.将 python 作为计算器运行起来，就跟以前一样，不过这一次在计算过程中使用变量名来做计算，常见的变量名有 i, x, j 等等。
 
+## 练习5：更多的变量和打印
+
+```
+my_name = 'Zed A. Shaw'
+my_age = 35 # not a lie
+my_height = 74 # inches
+my_weight = 180 # lbs
+my_eyes = 'Blue'
+my_teeth = 'White'
+my_hair = 'Brown'
+
+print "Let's talk about %s." % my_name
+print "He's %d inches tall." % my_height
+print "He's %d pounds heavy." % my_weight
+print "Actually that's not too heavy."
+print "He's got %s eyes and %s hair." % (my_eyes, my_hair)
+print "His teeth are usually %s depending on the coffee." % my_teeth
+
+# this line is tricky, try to get it exactly right
+print "If I add %d, %d, and %d I get %d." % (
+    my_age, my_height, my_weight, my_age + my_height + my_weight)
+```
+
+#### 附加思考
+
+>1.修改所有的变量名字，把它们前面的 my_去掉。确认将每一个地方的都改掉，不只是你使用=赋值过的地方。 2.试着使用变量将英寸和磅对应转换成厘米和千克。不要直接键入答案。使用 Python 的计算功能来完成。 3.在网上搜索所有的 Python 格式化字符。 4.试着使用更多的格式化字符。例如 %r 就是是非常有用的一个，它的含义是“不管什么都打印出来”。
+
+## 练习6：字符串和文本
+
+```
+x = "There are %d types of people." % 10
+binary = "binary"
+do_not = "don't"
+y = "Those who know %s and those who %s." % (binary, do_not)
+
+print x
+print y
+
+print "I said: %r." % x
+print "I also said: '%s'." % y
+
+hilarious = False
+joke_evaluation = "Isn't that joke so funny?! %r"
+
+print joke_evaluation % hilarious
+
+w = "This is the left side of..."
+e = "a string with a right side."
+
+print w + e
+```
+
+#### 附加思考
+
+>1.通读程序，并给每一行加上注释，解释下这行的作用。 2.找到所有的”字符串包含字符串”的位置，总共有四个位置。 3.你确定只有四个位置吗？你怎么知道的？也许我在骗你呢。 4.解释一下为什么用+连起来 w 和 e 就可以生成一个更长的字符串。
+
