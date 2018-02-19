@@ -617,12 +617,17 @@ print "That becomes: ", what, "Can you do it by hand?"
 #### 附加思考
 >1.如果你不是很确定 return 的功能，尝试自己写几个函数出来，让它们返回一些值。你可以将任何可以放在=右边的东西作为一个函数的返回值。 2.这个脚本的结尾是一个迷题。我将一个函数的返回值用作了另外一个函数的参数。我将它们连接一起，就像写数学等式一样。这样可能有些难懂，不过运行一下你就知道结果了。你可以试试看能不能用正常的方法实现和这个表达式一样的功能。 3.一旦你解决了这个迷题，试着修改一下函数里的某些部分，然后看会有什么样的结果。你可以有目的地修改它，让它输出另外一个值。 4.颠倒过来再做一次。写一个简单的等式，使用相同的函数来计算它。
 >
+
 ## 练习22：-复习，到目前为止你学到了什么？
 略
+
 ## 练习23：阅读代码
 >1.浏览器登陆 bitbucket.org, github.com, 或者 gitorious.org 搜索"python." 2.随便找一个项目，然后点进去。 3.点击 Source 标签，浏览目录和文件列表，直到你看到以.py 结尾的文件。 4.从头开始阅读你找到的代码。把它的功能用笔记记下来。 5.如果你看到一些有趣的符号或者奇怪的字符，你可以把它们记下来，日后再进行研究。
->
+
+
 ## 练习24：更多的练习
+>这个章节也不打算写Py文件了
+
 
 ```
 print "Let's practice everything."
@@ -666,6 +671,8 @@ print "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point
 
 
 ##  练习25：更多更多的练习
+>这个章节用ipython3做就好了，就不写py文件了
+
 首先以正常的方式 python ex25.py 运行，找出里边的错误，并修正。然后你需要跟着下面的答案部分完成这节练习。
 
 ```
@@ -942,8 +949,7 @@ if people > cats:
     print "Not many cats! The world is saved!"
 
 if people < dogs:
-    print "The world is drooled on!"
-
+    print "The world is drooled on!
 if people > dogs:
     print "The world is dry!"
 
